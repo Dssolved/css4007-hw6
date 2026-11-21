@@ -1,0 +1,7 @@
+map,batch_seed,goals,holes,time_limits,mean_steps,mean_discounted_return,episodes
+paper,11,47,3,0,5.04,2.229704,50
+paper,22,44,6,0,4.96,1.4423839999999999,50
+paper,33,42,8,0,4.88,0.9699919999999997,50
+extended,11,50,0,0,5.0,1.5019999999999996,50
+extended,22,50,0,0,5.0,1.5019999999999996,50
+extended,33,50,0,0,5.0,1.5019999999999996,50

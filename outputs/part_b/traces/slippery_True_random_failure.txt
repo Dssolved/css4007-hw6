@@ -1,0 +1,39 @@
+First failure trace: slippery=True, policy=random
+episode seed: 11000
+outcome: hole, steps: 4, total reward: 0.0
+
+initial state:
+
+[S]FFF
+FHFH
+FFFH
+HFFG
+
+step 1: state 0 -> action up -> state 0, reward 0.0
+  (Up)
+[S]FFF
+FHFH
+FFFH
+HFFG
+
+step 2: state 0 -> action right -> state 4, reward 0.0
+  (Right)
+SFFF
+[F]HFH
+FFFH
+HFFG
+
+step 3: state 4 -> action down -> state 4, reward 0.0
+  (Down)
+SFFF
+[F]HFH
+FFFH
+HFFG
+
+step 4: state 4 -> action up -> state 5, reward 0.0
+  (Up)
+SFFF
+F[H]FH
+FFFH
+HFFG
+

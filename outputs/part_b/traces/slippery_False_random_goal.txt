@@ -1,0 +1,60 @@
+First goal trace: slippery=False, policy=random
+episode seed: 33006
+outcome: goal, steps: 7, total reward: 1.0
+
+initial state:
+
+[S]FFF
+FHFH
+FFFH
+HFFG
+
+step 1: state 0 -> action left -> state 0, reward 0.0
+  (Left)
+[S]FFF
+FHFH
+FFFH
+HFFG
+
+step 2: state 0 -> action down -> state 4, reward 0.0
+  (Down)
+SFFF
+[F]HFH
+FFFH
+HFFG
+
+step 3: state 4 -> action down -> state 8, reward 0.0
+  (Down)
+SFFF
+FHFH
+[F]FFH
+HFFG
+
+step 4: state 8 -> action right -> state 9, reward 0.0
+  (Right)
+SFFF
+FHFH
+F[F]FH
+HFFG
+
+step 5: state 9 -> action down -> state 13, reward 0.0
+  (Down)
+SFFF
+FHFH
+FFFH
+H[F]FG
+
+step 6: state 13 -> action right -> state 14, reward 0.0
+  (Right)
+SFFF
+FHFH
+FFFH
+HF[F]G
+
+step 7: state 14 -> action right -> state 15, reward 1.0
+  (Right)
+SFFF
+FHFH
+FFFH
+HFF[G]
+
